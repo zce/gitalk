@@ -55,7 +55,7 @@ class GitalkComponent extends Component {
       labels: ['Gitalk'],
       title: window.document.title,
       body: '', // window.location.href + header.meta[description]
-      language: window.navigator.language || window.navigator.userLanguage,
+      language: 'zh-CN',
       perPage: 10,
       pagerDirection: 'last', // last or first
       createIssueManually: false,
