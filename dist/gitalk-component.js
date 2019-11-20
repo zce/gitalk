@@ -3692,7 +3692,7 @@ var GitalkComponent = function (_Component) {
   }, {
     key: 'loginLink',
     get: function get() {
-      var githubOauthUrl = 'http://github.com/login/oauth/authorize';
+      var githubOauthUrl = 'https://github.com/login/oauth/authorize';
       var clientID = this.options.clientID;
 
       var query = {
